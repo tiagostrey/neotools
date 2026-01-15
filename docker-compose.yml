@@ -3,7 +3,7 @@ version: '3.8'
 services:
   neotools-bot:
     build: .
-    container_name: neotools_bot
+    container_name: bot-neotools
     restart: unless-stopped
     environment:
       - BOT_TOKEN=${BOT_TOKEN}
