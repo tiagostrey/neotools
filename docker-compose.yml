@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  neotools-bot:
+    build: .
+    container_name: neotools_bot
+    restart: unless-stopped
+    # O token será inserido manualmente no Portainer
